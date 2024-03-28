@@ -1,3 +1,18 @@
+Welcome to the React full stack application for maintenance of pharmacy products. To start this application, you can clone this git repository in VSCode with command: git clone https://github.com/MarkovicMaja1/task_react.git . You need to start the api with command: npm start. You need to start frontend with command: npm run dev. The app would be available at http://localhost:5173. I used freesqldatabase for the database, which is defined in the config file.
+
+The frontend is built using React, with additional libraries like React Router DOM for routing, Axios for HTTP requests, React Hook Form for form management, and Chart.js for data visualization. TypeScript is used for static typing and Vite for fast development builds. The backend is built using Node.js and Express.js framework.
+
+(npm install @vitejs/plugin-react --save-dev - frontend) (npm install cookie-parser -api)
+
+
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
