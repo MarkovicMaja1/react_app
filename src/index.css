@@ -1,0 +1,27 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.navbar-container {
+  width: 20%; 
+  height: 100%; 
+  float: right; 
+}
+
+.content-container {
+  width: 80%; 
+  height: 100%; 
+  float: right; 
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,32 @@
+.box {
+  display: flex;
+  height: 100vh;
+  background-color: #141E30; 
+  justify-content: center;
+  align-items: center;
+}
+
+.box-create {
+  width: 50%;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.btn-back {
+  background-color: transparent; 
+  color: white; 
+  padding: 10px 20px;
+  border: 2px solid #00A3FF; 
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.btn-back:hover {
+  background-color: rgba(33, 136, 56, 0.1); 
+}
+  
